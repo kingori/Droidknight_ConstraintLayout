@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConstraintLayoutExample</string>
+    <string name="label_name">Name</string>
+    <string name="label_password">Password</string>
+    <string name="label_activity_constraint_set">ConstraintSet</string>
+    <string name="label_activity_placeholder">Placeholder</string>
+</resources>

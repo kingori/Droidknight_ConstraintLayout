@@ -1,0 +1,4 @@
+<resources>
+    <string name="label_name">사용자 이름</string>
+    <string name="label_password">비번</string>
+</resources>
