@@ -69,7 +69,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/gl_half"
         app:layout_constraintTop_toBottomOf="@id/btn_4"
-        app:layout_constraintBottom_toTopOf="btn_6"
+        app:layout_constraintBottom_toTopOf="@id/btn_6"
         />
 
     <Button
