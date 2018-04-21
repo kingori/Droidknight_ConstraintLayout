@@ -21,7 +21,7 @@ class ConstraintSetTestActivity : AppCompatActivity() {
 
         constraintSet2 = ConstraintSet().apply {
             clone(content)
-            connect(R.id.icon_2, ConstraintSet.TOP, R.id.btn_layout1, ConstraintSet.BOTTOM)
+            connect(R.id.icon_2, ConstraintSet.TOP, R.id.btn_layout1, ConstraintSet.TOP)
             constrainWidth(R.id.icon_2, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 120f, resources.displayMetrics).toInt())
             constrainHeight(R.id.icon_2, TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 120f, resources.displayMetrics).toInt())
             connect(R.id.icon_1, ConstraintSet.TOP, R.id.icon_2, ConstraintSet.BOTTOM)
